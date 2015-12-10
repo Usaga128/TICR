@@ -36,5 +36,6 @@ CREATE TABLE [dbo].[TIJOBS]
     [CompanyEnsurange] CHAR(10) NULL, 
     [Teleworking] CHAR(10) NULL, 
     [HiringCompanyId] INT NULL, 
-    [TecnologyMatrix] VARCHAR(1000) NULL
+    [TecnologyMatrix] VARCHAR(1000) NULL, 
+    [PaymentId] INT NULL
 ) WITH (MEMORY_OPTIMIZED = ON)
