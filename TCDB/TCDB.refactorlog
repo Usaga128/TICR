@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="6ae082b1-7ae5-4b01-a307-e6b570bd0052" ChangeDateTime="12/07/2015 22:18:44">
+    <Property Name="ElementName" Value="[dbo].[TIUSERS].[PasswordChanceCount]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TIUSERS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PasswordChangeCount" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e59f7ff7-ed92-4c0f-a21b-cc6281fb7b50" ChangeDateTime="12/07/2015 22:19:11">
+    <Property Name="ElementName" Value="[dbo].[TIUSERS].[CategoryType]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TIUSERS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LastPasswordModificationDate" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="24780abe-8959-4dae-b77b-da179c50034a" ChangeDateTime="12/07/2015 22:34:00">
+    <Property Name="ElementName" Value="[dbo].[TIUSERS].[LastPasswordModificationDate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TIUSERS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LastPasswordModDate" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3da417b0-8182-45c5-9ba1-46327bbe17a3" ChangeDateTime="12/07/2015 23:11:27">
+    <Property Name="ElementName" Value="[dbo].[TIUSERS].[OptEspecialization]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TIUSERS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="OptEspecializationId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ecf86772-ca8b-48db-b2ce-9516d90f2de6" ChangeDateTime="12/10/2015 03:17:32">
+    <Property Name="ElementName" Value="[dbo].[TIUSERS].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TIUSERS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d43ebf23-aecb-4c08-9985-54d878376c75" ChangeDateTime="12/10/2015 03:22:01">
+    <Property Name="ElementName" Value="[dbo].[TIJOBS].[PlusId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TIJOBS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PlusMatrix" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d7a253fb-a849-4e77-a4fb-35a6f516c7d0" ChangeDateTime="12/10/2015 03:23:18">
+    <Property Name="ElementName" Value="[dbo].[TIJOBS].[ContactMethodMatrix]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TIJOBS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ApplyCount" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="696e3806-83f0-40b0-bc7d-24f155b09644" ChangeDateTime="12/10/2015 03:27:30">
+    <Property Name="ElementName" Value="[dbo].[TIJOBS].[Experience]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TIJOBS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ExperienceId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="55d7c96e-9c20-43a5-b6df-49bf15bd020a" ChangeDateTime="12/10/2015 03:46:52">
+    <Property Name="ElementName" Value="[dbo].[TIJOBS].[Views]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TIJOBS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ViewsCount" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6c41f5d6-62f8-42e5-bf51-523463f87e49" ChangeDateTime="12/10/2015 04:00:38">
+    <Property Name="ElementName" Value="[dbo].[TIJOBS].[ByHiringCompany]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TIJOBS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="HiringCompanyId" />
+  </Operation>
+</Operations>
